@@ -1,0 +1,333 @@
+[debug] [2023-01-02T18:10:18.156Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:10:18.158Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-02T18:10:18.159Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:10:18.159Z] Platform:      win32
+[debug] [2023-01-02T18:10:18.159Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:10:18.160Z] Time:          Mon Jan 02 2023 23:40:18 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:10:18.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-02T18:10:18.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-02T18:10:18.168Z] > authorizing via signed-in user (sunu.sdsd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-chat-app-firebase-public-main
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-02T18:13:37.746Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-02T18:13:39.327Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-02T18:13:39.327Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project chat-room-sd (chat-room) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-01-02T18:14:52.615Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-02T18:14:53.087Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-02T18:14:53.087Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2023-01-02T18:15:17.998Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-02T18:15:37.427Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:15:37.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-01-02T18:15:37.429Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:15:37.429Z] Platform:      win32
+[debug] [2023-01-02T18:15:37.429Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:15:37.430Z] Time:          Mon Jan 02 2023 23:45:37 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:15:37.430Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-02T18:15:37.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-02T18:15:37.496Z] > authorizing via signed-in user (sunu.sdsd@gmail.com)
+[debug] [2023-01-02T18:15:37.496Z] [iam] checking project chat-room-sd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-02T18:15:37.499Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-room-sd:testIamPermissions [none]
+[debug] [2023-01-02T18:15:37.499Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-room-sd:testIamPermissions x-goog-quota-user=projects/chat-room-sd
+[debug] [2023-01-02T18:15:37.499Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-room-sd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-02T18:15:39.646Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-room-sd:testIamPermissions 200
+[debug] [2023-01-02T18:15:39.647Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-room-sd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-02T18:15:39.648Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd [none]
+[debug] [2023-01-02T18:15:40.460Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd 200
+[debug] [2023-01-02T18:15:40.460Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd {"projectId":"chat-room-sd","projectNumber":"194929075657","displayName":"chat-room","name":"projects/chat-room-sd","resources":{"hostingSite":"chat-room-sd","realtimeDatabaseInstance":"chat-room-sd-default-rtdb"},"state":"ACTIVE","etag":"1_89cb41f8-0e21-4704-a003-ce2340becc60"}
+[info] 
+[info] === Deploying to 'chat-room-sd'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-02T18:15:40.467Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions [none]
+[debug] [2023-01-02T18:15:40.468Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-02T18:15:43.122Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions 200
+[debug] [2023-01-02T18:15:43.122Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions {"name":"projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[chat-room-sd]: beginning deploy... 
+[info] i  hosting[chat-room-sd]: found 12 files in build 
+[debug] [2023-01-02T18:15:54.502Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-02T18:15:54.504Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2023-01-02T18:15:54.841Z] [hosting] hash cache [YnVpbGQ] stored for 12 files
+[debug] [2023-01-02T18:15:54.842Z] [hosting][hash queue][FINAL] {"max":326,"min":10,"avg":39.333333333333336,"active":0,"complete":12,"success":12,"errored":0,"retried":0,"total":12,"elapsed":337}
+[debug] [2023-01-02T18:15:54.842Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5:populateFiles [none]
+[debug] [2023-01-02T18:15:54.842Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5:populateFiles {"files":{"/asset-manifest.json":"e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921","/index.html":"59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/static/css/main.8e06f9f4.css":"d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb","/static/css/main.8e06f9f4.css.map":"c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9","/static/js/main.43b03062.js.LICENSE.txt":"c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149","/static/js/main.43b03062.js":"5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea","/static/js/main.43b03062.js.map":"cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176"}}
+[debug] [2023-01-02T18:15:56.463Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5:populateFiles 200
+[debug] [2023-01-02T18:15:56.463Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5:populateFiles {"uploadRequiredHashes":["d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb","eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9","59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b","3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149","e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921","5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea","cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files"}
+[debug] [2023-01-02T18:15:56.466Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb [none]
+[debug] [2023-01-02T18:15:56.466Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb [stream]
+[debug] [2023-01-02T18:15:56.468Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [none]
+[debug] [2023-01-02T18:15:56.468Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2023-01-02T18:15:56.469Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [none]
+[debug] [2023-01-02T18:15:56.469Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2023-01-02T18:15:56.470Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9 [none]
+[debug] [2023-01-02T18:15:56.470Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9 [stream]
+[debug] [2023-01-02T18:15:56.471Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b [none]
+[debug] [2023-01-02T18:15:56.471Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b [stream]
+[debug] [2023-01-02T18:15:56.473Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [none]
+[debug] [2023-01-02T18:15:56.473Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2023-01-02T18:15:56.474Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2023-01-02T18:15:56.474Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2023-01-02T18:15:56.475Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [none]
+[debug] [2023-01-02T18:15:56.475Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2023-01-02T18:15:56.476Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149 [none]
+[debug] [2023-01-02T18:15:56.476Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149 [stream]
+[debug] [2023-01-02T18:15:56.477Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921 [none]
+[debug] [2023-01-02T18:15:56.477Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921 [stream]
+[debug] [2023-01-02T18:15:56.478Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea [none]
+[debug] [2023-01-02T18:15:56.478Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea [stream]
+[debug] [2023-01-02T18:15:56.479Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176 [none]
+[debug] [2023-01-02T18:15:56.480Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176 [stream]
+[debug] [2023-01-02T18:15:56.480Z] [hosting][populate queue][FINAL] {"max":1630,"min":1630,"avg":1630,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1644}
+[debug] [2023-01-02T18:15:56.481Z] [hosting] uploads queued: 12
+[debug] [2023-01-02T18:15:58.480Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb 200
+[debug] [2023-01-02T18:15:58.480Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/d5496d7a8d563a9777466f990ca405e4f09dfc4e88f5836e51a1feb914fc79eb [stream]
+[debug] [2023-01-02T18:15:58.591Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9 200
+[debug] [2023-01-02T18:15:58.591Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c95a9e193e8a8068b1a45f108b3e718c0a70ad64161716e24ce8ab9cfc0e8bb9 [stream]
+[debug] [2023-01-02T18:15:58.991Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 200
+[debug] [2023-01-02T18:15:58.991Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2023-01-02T18:15:58.992Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2023-01-02T18:15:58.992Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2023-01-02T18:15:59.401Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b 200
+[debug] [2023-01-02T18:15:59.401Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/59d18dc2fe55ecad434e0ac41e754f4396e39b07ea8e4833635093a31a1b034b [stream]
+[debug] [2023-01-02T18:15:59.405Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 200
+[debug] [2023-01-02T18:15:59.405Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2023-01-02T18:15:59.493Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a 200
+[debug] [2023-01-02T18:15:59.494Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2023-01-02T18:15:59.497Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b 200
+[debug] [2023-01-02T18:15:59.497Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2023-01-02T18:15:59.542Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176 200
+[debug] [2023-01-02T18:15:59.543Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/cf0bda2ce6f561f27a826b99af376c194762adf0e5e460b16525db56e4b67176 [stream]
+[debug] [2023-01-02T18:15:59.811Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921 200
+[debug] [2023-01-02T18:15:59.811Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/e7bf7f86ea4535478bde62999ff9504379b9e6d8a63319108719d000fbbc1921 [stream]
+[debug] [2023-01-02T18:16:00.743Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea 200
+[debug] [2023-01-02T18:16:00.743Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/5b42d2a348d2a19164efc77a54bbfaba68125654240a0b97d0078421e33cbeea [stream]
+[debug] [2023-01-02T18:16:00.744Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149 200
+[debug] [2023-01-02T18:16:00.744Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/chat-room-sd/versions/0a4bf2bda473a8d5/files/c793f21217af056eb5ea14a825438a2fc87b1dc390b80914dd43ac807d230149 [stream]
+[debug] [2023-01-02T18:16:00.744Z] [hosting][upload queue][FINAL] {"max":4278,"min":2016,"avg":3009.1666666666665,"active":0,"complete":12,"success":12,"errored":0,"retried":0,"total":12,"elapsed":4281}
+[info] +  hosting[chat-room-sd]: file upload complete 
+[debug] [2023-01-02T18:16:00.745Z] [hosting] deploy completed after 6256ms
+[debug] [2023-01-02T18:16:00.748Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "chat-room-sd"
+    },
+    "version": "projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5"
+  }
+]
+[info] i  hosting[chat-room-sd]: finalizing version... 
+[debug] [2023-01-02T18:16:00.750Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions/0a4bf2bda473a8d5 updateMask=status%2Cconfig
+[debug] [2023-01-02T18:16:00.751Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions/0a4bf2bda473a8d5 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-01-02T18:16:02.396Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions/0a4bf2bda473a8d5 200
+[debug] [2023-01-02T18:16:02.396Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/versions/0a4bf2bda473a8d5 {"name":"projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-02T18:15:40.554462Z","createUser":{"email":"sunu.SDSD@gmail.com"},"finalizeTime":"2023-01-02T18:16:00.830934Z","finalizeUser":{"email":"sunu.SDSD@gmail.com"}}
+[debug] [2023-01-02T18:16:02.396Z] [hosting] finalized version for chat-room-sd:[object Object]
+[info] +  hosting[chat-room-sd]: version finalized 
+[info] i  hosting[chat-room-sd]: releasing new version... 
+[debug] [2023-01-02T18:16:02.397Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/channels/live/releases versionName=projects%2F194929075657%2Fsites%2Fchat-room-sd%2Fversions%2F0a4bf2bda473a8d5
+[debug] [2023-01-02T18:16:02.397Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/channels/live/releases {}
+[debug] [2023-01-02T18:16:04.228Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/channels/live/releases 200
+[debug] [2023-01-02T18:16:04.228Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/chat-room-sd/channels/live/releases {"name":"projects/194929075657/sites/chat-room-sd/channels/live/releases/1672683361780754","version":{"name":"projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-02T18:15:40.554462Z","createUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"},"finalizeTime":"2023-01-02T18:16:00.830934Z","finalizeUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"}},"type":"DEPLOY","releaseTime":"2023-01-02T18:16:01.780754590Z","releaseUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"}}
+[debug] [2023-01-02T18:16:04.228Z] [hosting] release: {"name":"projects/194929075657/sites/chat-room-sd/channels/live/releases/1672683361780754","version":{"name":"projects/194929075657/sites/chat-room-sd/versions/0a4bf2bda473a8d5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-02T18:15:40.554462Z","createUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"},"finalizeTime":"2023-01-02T18:16:00.830934Z","finalizeUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"}},"type":"DEPLOY","releaseTime":"2023-01-02T18:16:01.780754590Z","releaseUser":{"email":"sunu.SDSD@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp5Kye4UqEBB8FtrunC4paBoreMm1WEDCR2_yHDZ1g"}}
+[info] +  hosting[chat-room-sd]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/chat-room-sd/overview
+[info] Hosting URL: https://chat-room-sd.web.app
+[debug] [2023-01-02T18:16:28.281Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-02T18:18:21.316Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:18:21.318Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-02T18:18:21.318Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:18:21.318Z] Platform:      win32
+[debug] [2023-01-02T18:18:21.318Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:18:21.320Z] Time:          Mon Jan 02 2023 23:48:21 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:18:21.320Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-02T18:18:21.389Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-02T18:18:21.390Z] > authorizing via signed-in user (sunu.sdsd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-chat-app-firebase-public-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-02T18:18:40.735Z] Using project from CLI flag: chat-room-sd
+[debug] [2023-01-02T18:18:40.737Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd [none]
+[debug] [2023-01-02T18:18:41.746Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd 200
+[debug] [2023-01-02T18:18:41.746Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd {"projectId":"chat-room-sd","projectNumber":"194929075657","displayName":"chat-room","name":"projects/chat-room-sd","resources":{"hostingSite":"chat-room-sd","realtimeDatabaseInstance":"chat-room-sd-default-rtdb"},"state":"ACTIVE","etag":"1_89cb41f8-0e21-4704-a003-ce2340becc60"}
+[info] i  Using project chat-room-sd (chat-room) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2023-01-02T18:19:03.109Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-02T18:19:03.688Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-02T18:19:03.688Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2023-01-02T18:19:21.775Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-02T18:19:43.472Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:19:43.474Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-01-02T18:19:43.474Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:19:43.474Z] Platform:      win32
+[debug] [2023-01-02T18:19:43.475Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:19:43.475Z] Time:          Mon Jan 02 2023 23:49:43 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:19:43.476Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as sunu.sdsd@gmail.com
+[debug] [2023-01-02T18:19:53.608Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-02T18:20:42.668Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:20:42.670Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-01-02T18:20:42.671Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:20:42.671Z] Platform:      win32
+[debug] [2023-01-02T18:20:42.671Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:20:42.672Z] Time:          Mon Jan 02 2023 23:50:42 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:20:42.672Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as sunu.sdsd@gmail.com
+[debug] [2023-01-02T18:20:52.808Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-01-02T18:21:35.653Z] ----------------------------------------------------------------------
+[debug] [2023-01-02T18:21:35.655Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-02T18:21:35.656Z] CLI Version:   11.19.0
+[debug] [2023-01-02T18:21:35.656Z] Platform:      win32
+[debug] [2023-01-02T18:21:35.656Z] Node Version:  v18.12.1
+[debug] [2023-01-02T18:21:35.657Z] Time:          Mon Jan 02 2023 23:51:35 GMT+0530 (India Standard Time)
+[debug] [2023-01-02T18:21:35.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-02T18:21:35.729Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-02T18:21:35.730Z] > authorizing via signed-in user (sunu.sdsd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-chat-app-firebase-public-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-02T18:22:29.904Z] Using project from CLI flag: chat-room-sd
+[debug] [2023-01-02T18:22:29.907Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd [none]
+[debug] [2023-01-02T18:22:31.186Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd 200
+[debug] [2023-01-02T18:22:31.186Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chat-room-sd {"projectId":"chat-room-sd","projectNumber":"194929075657","displayName":"chat-room","name":"projects/chat-room-sd","resources":{"hostingSite":"chat-room-sd","realtimeDatabaseInstance":"chat-room-sd-default-rtdb"},"state":"ACTIVE","etag":"1_89cb41f8-0e21-4704-a003-ce2340becc60"}
+[info] i  Using project chat-room-sd (chat-room) 
+[info] 
+=== Firestore Setup
+[debug] [2023-01-02T18:22:31.194Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/chat-room-sd/services/firestore.googleapis.com [none]
+[debug] [2023-01-02T18:22:31.195Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/chat-room-sd/services/firestore.googleapis.com x-goog-quota-user=projects/chat-room-sd
+[debug] [2023-01-02T18:22:33.842Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/chat-room-sd/services/firestore.googleapis.com 200
+[debug] [2023-01-02T18:22:33.842Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/chat-room-sd/services/firestore.googleapis.com [omitted]
+[debug] [2023-01-02T18:22:33.843Z] >>> [apiv2][query] GET https://appengine.googleapis.com/v1/apps/chat-room-sd [none]
+[debug] [2023-01-02T18:22:34.661Z] <<< [apiv2][status] GET https://appengine.googleapis.com/v1/apps/chat-room-sd 404
+[debug] [2023-01-02T18:22:34.661Z] <<< [apiv2][body] GET https://appengine.googleapis.com/v1/apps/chat-room-sd {"error":{"code":404,"message":"App does not exist.","status":"NOT_FOUND"}}
+[debug] [2023-01-02T18:22:34.662Z] error getting database typeHTTP Error: 404, App does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"App does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"HTTP Error: 404, App does not exist.","status":404}
+[debug] [2023-01-02T18:22:34.662Z] database_type: undefined
+[debug] [2023-01-02T18:22:39.672Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
